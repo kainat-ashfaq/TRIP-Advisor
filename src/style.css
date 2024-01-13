@@ -54,14 +54,12 @@
   padding-right: 2%;
   font-family: poppins;
   font-size: 20px;
-  /* border-bottom: 2px solid black; */
 }
 .search {
   border: none;
   border-bottom: 2px solid black;
   background-color: transparent;
   padding-bottom: 2%;
-  /* margin-top: 1%; */
 }
 .underline {
   border: none;
@@ -74,9 +72,7 @@
   background-color: transparent;
   padding-bottom: 2%;
 }
-/* .inp-group {
-  width: 100%;
-} */
+
 .inp {
   background-image: url(./img/mg-removebg-preview.png);
   background-repeat: no-repeat;
@@ -97,38 +93,87 @@
 }
 .but-search {
   font-family: poppins;
-  /* width: 7%; */
   height: 7vh;
   border: none;
   border-radius: 26px;
   background-color: #34e0a1;
-  /* margin-left: 10%; */
   margin-top: 6.5px;
   position: absolute;
-  /* left: 20%; */
   right: 26%;
 }
 
-/* .form-div {
-  height: 14%;
-  width: 60%;
-  background-color: white;
+.text-1 {
+  font-family: poppins;
+  padding-left: 6%;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 3%;
+}
+.para-1 {
+  font-family: poppins;
+  padding-left: 6%;
+  /* font-size: 24px; */
+  /* font-weight: bolder; */
+}
+/* cardcsss */
+.card-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow-x: scroll;
+  /* height: 50vh; */
+  margin-left: 10%;
+}
+.card-main-div::-webkit-scrollbar {
+  display: none;
+}
+.card-div {
+  margin-left: 1%;
+  width: 40%;
+}
+.card-img {
+  width: 40%;
+}
+
+.destination {
+  position: absolute;
+  bottom: -50%;
+  left: 12%;
+  color: rgb(250, 240, 240);
+  font-family: poppin2;
+  font-size: 25px;
+}
+.recent-card {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+}
+.card-imgg {
+  width: 95%;
   border-radius: 10px;
-  box-sizing: border-box;
 }
-.mail {
-  border: none;
-  transform: translateY(30%);sss
+.uni {
+  font-family: poppins;
 }
-.sub {
-    padding: 10px 20px;
-    transform: translateY(20%);
-    background-color: #cd2c22;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    float: right;
-  } */
+.edu {
+  /* margin-top: 0px; */
+  margin-top: -6%;
+}
+.icon-heart{
+  background-color: white;
+  border-radius: 50%;
+  width: 3%;
+  height: 5.5vh;
+   margin-top: 1%;
+  position: absolute;
+  margin-left: 14%; 
+}
+.heart {
+  margin-top: 36%;
+  position: absolute;
+  margin-left: 18%;
+}
 @media screen and (max-width: 768px) {
   .li-div {
     width: 100%;
@@ -139,7 +184,6 @@
     margin-left: 21%;
   }
   .li-item {
-    /* font-size: 12px; */
     padding-right: 5%;
   }
   .li-div::-webkit-scrollbar {
@@ -149,21 +193,45 @@
     background-color: white;
   }
   .but-search {
-    /* margin-left: 20%; */
-
     position: absolute;
     left: 0.2%;
     margin-top: 18%;
-    /* bottom: -1%; */
   }
-  /* .inp-group {
+  .banner-img {
+    width: 70%;
+    /* margin-top: 15%; */
+  }
+  .text-1 {
+    font-family: poppins;
+    padding-left: 0%;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .para-1 {
+    font-family: poppins;
+    padding-left: 0;
+    font-size: 12px;
+  }
+  .card-main-div {
+    overflow-x: scroll;
+  }
+  .card-main-div::-webkit-scrollbar {
+    display: none;
+  }
+  .card1 {
+    margin-left: 920px;
+  }
+  .destination {
+    position: absolute;
+    bottom: -38%;
+
+    left: 20%;
+
+    color: rgb(255, 255, 255);
+    font-family: poppin2;
+    font-size: 25px;
+  }
+  .recent-card{
     display: block;
   }
-  .inp {
-    width: 100%;
-    background-position-x: 4%;
-  }
-  ::placeholder {
-    padding-left: 12%;
-  } */
 }
